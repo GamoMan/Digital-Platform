@@ -1,0 +1,42 @@
+{
+        "services": [{
+                "ID": "Customers",
+                "Name": "Customers",
+                "Tags": [
+                    "Customers", "Api"
+                ],
+                "Address": "localhost",
+                "Port": 9001,
+                "Check": {
+                    "HTTP": "http://localhost:9001/HealthCheck",
+                    "Interval": "10s"
+                }
+            }, {
+                "id": "Products",
+                "name": "Products",
+                "tags": [
+                    "Products","Api"
+                ],
+                "Address": "localhost",
+                "Port": 9002,
+                "Check": [{
+                        "HTTP": "http://localhost:9002/HealthCheck",
+                        "Interval": "10s"
+                    }
+                ]
+            }, {
+                "id": "Authentication",
+                "name": "Authentication",
+                "tags": [
+                    "Authentication","Api"
+                ],
+                "Address": "localhost",
+                "Port": 9009,
+                "Check": [{
+                        "HTTP": "http://localhost:9009/HealthCheck",
+                        "Interval": "10s"
+                    }
+                ]
+            }
+        ]
+    }
