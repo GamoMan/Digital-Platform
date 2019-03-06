@@ -21,7 +21,7 @@
         [HttpGet]
         public IActionResult Get(string name, string pwd)
         {
-            if (name == "catcher" && pwd == "123")
+            if (name == "catcher" && pwd == "123")  // Call ESISS by parameter Account No. and ATM Pin
             {
 
                 var now = DateTime.UtcNow;
