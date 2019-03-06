@@ -14,6 +14,7 @@ namespace APIGateway
 {
     using Ocelot.DependencyInjection;
     using Ocelot.Middleware;
+    using Ocelot.Provider.Consul;
 
     public class Startup
     {
@@ -59,7 +60,7 @@ namespace APIGateway
                  x.TokenValidationParameters = tokenValidationParameters;
              });
 
-            services.AddOcelot(Configuration);
+            services.AddOcelot(Configuration).AddConsul();
         }
 
         public async void Configure(IApplicationBuilder app, IHostingEnvironment env)
