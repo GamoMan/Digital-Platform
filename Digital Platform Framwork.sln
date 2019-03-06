@@ -30,6 +30,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Consul", "Consul\", "{D1E71
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "53518"
+		SlnRelativePath = "Consul\"
 	EndProjectSection
 EndProject
 Global
