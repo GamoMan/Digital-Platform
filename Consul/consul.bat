@@ -1,1 +1,1 @@
-./consul.exe agent -dev -node machine -config-dir="./consul.d/config.json"
+.\consul.exe agent -dev -node machine -config-file="config.json"
