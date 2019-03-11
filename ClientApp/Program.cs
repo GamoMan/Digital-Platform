@@ -116,7 +116,7 @@
         {
             HttpClient client = new HttpClient();
 
-            client.BaseAddress = new Uri( "http://localhost:9000");
+            client.BaseAddress = new Uri("http://localhost:9009/");
             client.DefaultRequestHeaders.Clear();
 
             var res2 = client.GetAsync("/api/auth?name=catcher&pwd=123").Result;

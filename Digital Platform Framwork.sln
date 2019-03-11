@@ -33,6 +33,8 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Consul", "Consul\", "{D1E71
 		SlnRelativePath = "Consul\"
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalWeb", "DigitalWeb\DigitalWeb.csproj", "{9BBECA23-7F4D-4FCF-BC92-50B73D4D82BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{D1E7147E-1FF0-4CED-AC61-976856B84DEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1E7147E-1FF0-4CED-AC61-976856B84DEE}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{D1E7147E-1FF0-4CED-AC61-976856B84DEE}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{9BBECA23-7F4D-4FCF-BC92-50B73D4D82BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BBECA23-7F4D-4FCF-BC92-50B73D4D82BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BBECA23-7F4D-4FCF-BC92-50B73D4D82BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BBECA23-7F4D-4FCF-BC92-50B73D4D82BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
